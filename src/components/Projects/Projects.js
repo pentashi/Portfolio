@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+import digitalclock from "../../Assets/Projects/digitalclock.png";
 import stopwatch from "../../Assets/Projects/stopwatch.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import todo from "../../Assets/Projects/todo.png";
 import Cammarket from "../../Assets/Projects/Cammarket.png";
 import Moovestudent from "../../Assets/Projects/Moovestudent.png";
 import { BsStopwatch } from "react-icons/bs";
@@ -80,7 +80,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SER}
+              // imgPath={SER}
               isBlog={false}
               title="Speech Emotion Detection"
               description="This is a speech emotion detection model i trained with tensorflow and saved in keras and integrated it into an android app to inteprete emotions in real time0"
