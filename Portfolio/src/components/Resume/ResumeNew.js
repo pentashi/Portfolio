@@ -8,7 +8,7 @@ function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
   // Use the public URL for your Google Drive resume here
-  const googleDriveLink = "https://drive.google.com/file/d/1AINh1RKU4H_H_Edgn2n26e-DntZUjYCr/view?usp=drive_link";
+  const googleDriveLink = "https://drive.google.com/file/d/1gAl9e-1h3nCmTcjheMJ36YBjJWz_c_Du/view?usp=drive_link";
 
   useEffect(() => {
     setWidth(window.innerWidth);
