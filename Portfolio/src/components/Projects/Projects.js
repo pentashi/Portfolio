@@ -9,6 +9,7 @@ import todo from "../../Assets/Projects/todo.png";
 import Cammarket from "../../Assets/Projects/Cammarket.png";
 import Moovestudent from "../../Assets/Projects/Moovestudent.png";
 import { BsStopwatch } from "react-icons/bs";
+import Ecommerce from "../../Assets/Projects/Ecommerce.png";
 
 
 function Projects() {
